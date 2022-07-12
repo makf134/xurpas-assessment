@@ -1,0 +1,43 @@
+.pokemon-container{
+    height:90vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 0 0;
+}
+.info-container{
+    background-color: orange;
+    height:90%;
+    width: 90%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    box-shadow: 0 4px 4px -4px black;
+}
+.pokemon-image{
+    height:85%;
+    margin-right: 150px;
+}
+.info-top{
+    display: flex;
+}
+.info-top-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.info-bottom{
+    width:100%;
+}
+.info-stats-container{
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.info-stats-text{
+    padding: 0 20px 0 0;
+    font-size: 1.6rem;
+}

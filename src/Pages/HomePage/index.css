@@ -1,0 +1,21 @@
+.home-container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.items-container {
+  background: #eee;
+  box-shadow: 0 4px 4px -4px black;
+  width: 92%;
+  height: 90%;
+  border-radius: 10px;
+  padding:20px 0 20px 0;
+  overflow-y: scroll;
+}
+.grid-item{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
